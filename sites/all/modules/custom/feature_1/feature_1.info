@@ -1,0 +1,11 @@
+name = Feature #1
+description = Description of this feature
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = feature_1
+dependencies[] = ctools
+dependencies[] = document
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
